@@ -4,16 +4,16 @@ Created on Mon Dec 23 19:35:48 2024
 
 @author: amrut
 """
-import os
-os.chdir('C:/Users/amrut/Downloads/Deploy_Machine_Learning/')
+#import os
+#os.chdir('C:/Users/amrut/Downloads/Deploy_Machine_Learning/')
 
 
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 # C:/Users/amrut/Downloads/Deploy_Machine_Learning/
-Diabetis_model=pickle.load(open('diabetis_model.sav','rb'))
-Heart_model=pickle.load(open('heart_model.sav','rb'))
+Diabetis_model=pickle.load(open('C:/Users/amrut/Downloads/Deploy_Machine_Learning/diabetis_model.sav','rb'))
+Heart_model=pickle.load(open('C:/Users/amrut/Downloads/Deploy_Machine_Learning/heart_model.sav','rb'))
 
 with st.sidebar:
     selected=option_menu('Multiple Disease Prediction System',
