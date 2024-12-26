@@ -4,8 +4,8 @@ Created on Mon Dec 23 19:35:48 2024
 
 @author: amrut
 """
-#import os
-#os.chdir('C:/Users/amrut/Downloads/Deploy_Machine_Learning/')
+import os
+os.chdir('C:/Users/amrut/Downloads/Deploy_Machine_Learning/')
 
 
 import pickle
